@@ -1,0 +1,108 @@
+package com.sberkozd.europa.data.models
+
+
+import com.squareup.moshi.Json
+import com.squareup.moshi.JsonClass
+import kotlinx.parcelize.Parcelize
+import android.os.Parcelable
+
+@JsonClass(generateAdapter = true)
+@Parcelize
+data class Languages(
+    @Json(name = "bel")
+    val bel: String?,
+    @Json(name = "bos")
+    val bos: String?,
+    @Json(name = "bul")
+    val bul: String?,
+    @Json(name = "cat")
+    val cat: String?,
+    @Json(name = "ces")
+    val ces: String?,
+    @Json(name = "cnr")
+    val cnr: String?,
+    @Json(name = "dan")
+    val dan: String?,
+    @Json(name = "de")
+    val de: String?,
+    @Json(name = "deu")
+    val deu: String?,
+    @Json(name = "ell")
+    val ell: String?,
+    @Json(name = "eng")
+    val eng: String?,
+    @Json(name = "est")
+    val est: String?,
+    @Json(name = "fao")
+    val fao: String?,
+    @Json(name = "fin")
+    val fin: String?,
+    @Json(name = "fra")
+    val fra: String?,
+    @Json(name = "gle")
+    val gle: String?,
+    @Json(name = "glv")
+    val glv: String?,
+    @Json(name = "gsw")
+    val gsw: String?,
+    @Json(name = "hrv")
+    val hrv: String?,
+    @Json(name = "hun")
+    val hun: String?,
+    @Json(name = "isl")
+    val isl: String?,
+    @Json(name = "ita")
+    val ita: String?,
+    @Json(name = "lat")
+    val lat: String?,
+    @Json(name = "lav")
+    val lav: String?,
+    @Json(name = "lit")
+    val lit: String?,
+    @Json(name = "ltz")
+    val ltz: String?,
+    @Json(name = "mkd")
+    val mkd: String?,
+    @Json(name = "mlt")
+    val mlt: String?,
+    @Json(name = "nfr")
+    val nfr: String?,
+    @Json(name = "nld")
+    val nld: String?,
+    @Json(name = "nno")
+    val nno: String?,
+    @Json(name = "nob")
+    val nob: String?,
+    @Json(name = "nor")
+    val nor: String?,
+    @Json(name = "nrf")
+    val nrf: String?,
+    @Json(name = "pol")
+    val pol: String?,
+    @Json(name = "por")
+    val por: String?,
+    @Json(name = "roh")
+    val roh: String?,
+    @Json(name = "ron")
+    val ron: String?,
+    @Json(name = "rus")
+    val rus: String?,
+    @Json(name = "slk")
+    val slk: String?,
+    @Json(name = "slv")
+    val slv: String?,
+    @Json(name = "smi")
+    val smi: String?,
+    @Json(name = "spa")
+    val spa: String?,
+    @Json(name = "sqi")
+    val sqi: String?,
+    @Json(name = "srp")
+    val srp: String?,
+    @Json(name = "swe")
+    val swe: String?,
+    @Json(name = "tur")
+    val tur: String?,
+    @Json(name = "ukr")
+    val ukr: String?
+) : Parcelable

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Europa</string>
+    <string name="search">Search</string>
+    <string name="Island">This country is an Island nation therefore has no land borders with any other country</string>
+</resources>
